@@ -1,0 +1,27 @@
+{
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "workbench.colorTheme": "Winter is Coming (Dark Black - No Italics)",
+    "workbench.settings.editor": "json",
+    "workbench.settings.openDefaultSettings": true,
+    "editor.fontSize": 16,
+    "debug.console.fontSize": 16,
+    "terminal.integrated.fontSize": 16,
+    "liveServer.settings.CustomBrowser": "chrome",
+    "liveServer.settings.donotVerifyTags": true,
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "compressed",
+            "extensionName": ".css",
+            "savePath": "/dist"
+        }
+    ],
+    "liveSassCompile.settings.generateMap": false,
+    "editor.wordWrap": "on",
+    "json.maxItemsComputed": 50000
+}
