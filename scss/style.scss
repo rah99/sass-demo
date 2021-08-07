@@ -1,4 +1,4 @@
-@import 'config', 'utilities', 'buttons', 'media'; // Note do not need to include the underscore or extension
+@import 'config'; // Note do not need to include the underscore or extension
 
 * {
     box-sizing: border-box;
@@ -68,3 +68,5 @@ a {
         }
     }
 }
+
+@import 'utilities', 'buttons', 'media'; // Media needs to go here for the order of selection

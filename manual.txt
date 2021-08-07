@@ -19,7 +19,7 @@
                     f.  Conditionals, as in, use logic such as if/else statements
 8.  Sass compliers:
                     a.  Using Node: npm i -g sass
-                                i.  Once installed use: sass --watch scss/style.scss css/style.css
+                                i.  Once installed use: sass --watch scss/style.scss css/style.css (this is the location of your scss file and css file)
                     b.  Using Live Sass Compiler - VS Code - install the extension "Live Sass Compiler"
                                 i.      This will create a "Watch Sass" entry in the bottom Task bar
                                 ii.     Changes the workbench (your own, not the main default settings) settings.JSON
