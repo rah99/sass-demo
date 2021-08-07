@@ -6,7 +6,6 @@
 
 @include max-width(700px) {
     .showcase {
-        height: 450px;
 
         nav {
 
@@ -22,6 +21,8 @@
         }
     
         &-content {
+            align-items: flex-start;
+            margin-top: 30px;
             text-align: center;
     
             img {
