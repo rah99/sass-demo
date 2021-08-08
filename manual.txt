@@ -12,7 +12,7 @@
 7.  Advamtages of Sass:
                     a.  Nesting
                     b.  Modularisation, as in, create a base.scss (name must have an underscore e.g. "_base.scss" so as it does not compile) file 
-                        and import it into the styles.css ("@import 'base'; (marked for deprecation)" or new syntax "@use 'base';")
+                        and import it into the styles.css ("@import 'base'; (marked for deprecation)" or new syntax (using namespace) "@use 'base';")
                     c.  Can use functions and mixins (injecting code into a class) used through "@include <name>"
                     d.  Inheritance created using "%" as a prefix and using "@extend <name>" to include in a style
                     e.  Operators, as in, create calculations for container sizing or float values for example
