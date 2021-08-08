@@ -37,8 +37,9 @@
                                 iii.    Selecting "Watch Sass" will compile the .css file in the selected folder as above (minified due to "compressed" 
                                         selected above)
                                 iv.     The compiler will notify of errors
-9.  If sass created using @import (this marked for deprecation), conversion can be performed by:
+9.  If sass created using @import (this is marked for deprecation), conversion can be performed by:
                     a.  npm i -g sass-migrator (Node) or
                         choco install sass-migrator (Chocolatey)
                         brew install sass/sass/migrator (Homebrew)
                     b. More information and instructions found @ https://sass-lang.com/documentation/cli/migrator
+                    c. *NOTE the migration must point at your main scss file, in this case "scss/style.scss"
